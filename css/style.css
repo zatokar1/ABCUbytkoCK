@@ -1293,8 +1293,15 @@ h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
   }
 
   .nav-links a {
-    font-size: 1.1rem;
-    padding: 12px 32px;
+    font-size: 1.2rem;
+    padding: 14px 32px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-links a:last-of-type {
+    border-bottom: none;
   }
 
   .lang-switcher {
